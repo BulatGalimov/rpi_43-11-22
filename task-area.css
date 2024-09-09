@@ -1,0 +1,51 @@
+.task-container {
+    display: flex;
+    justify-content: flex-start; /* Выравнивание по левому краю */
+    gap: 20px; /* Промежутки между секциями */
+}
+
+.task-section {
+    flex: 1; /* Каждой секции даем равное пространство */
+}
+
+.task-title {
+    padding: 5px 10px; /* Отступы внутри заголовка */
+    border-radius: 5px; /* Скругление углов */
+    margin: 0; /* Убираем отступы */
+    font-weight: bold; /* Жирный шрифт */
+    display: inline-block; /* Заставляем заголовок занимать только необходимую ширину */
+    margin-bottom: 15px; /* Увеличенный отступ снизу для заголовка */
+    color: #333; /* Цвет текста заголовка */
+    font-size: 14px; /* Установим размер шрифта для заголовка */
+}
+
+/* Цвета для заголовков секций */
+.backlog {
+    background-color: #aab8c4; /* Серый фон для Бэклога */
+    color:#575f66;
+}
+
+.in-progress {
+    background-color: #51a3fc; /* Голубой фон для В процессе */
+    color:#0076dd;
+
+}
+
+.done {
+    background-color: #62cf7c; /* Зеленый фон для Готово */
+    color:#048b31;
+
+}
+
+.basket {
+    background-color: #e95866; /* Красный фон для Корзины */
+    color:#9b1e1e;
+
+}
+
+.task-content {
+    padding: 10px; /* Отступы внутри области задач */
+    border-radius: 5px; /* Скругление углов */
+    background-color: white; /* Белый фон для задач */
+    margin-bottom: 10px; /* Отступ между задачами */
+}

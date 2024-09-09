@@ -1,0 +1,14 @@
+.delete-button {
+    background-color: #ff0000; /* Красный фон для кнопки удаления */
+    color: white; /* Белый текст для кнопки */
+    border: none; /* Убираем рамку */
+    padding: 10px 15px; /* Отступы внутри кнопки */
+    border-radius: 5px; /* Скругление углов кнопки */
+    cursor: pointer; /* Курсор в виде указателя при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+    margin-top: 10px; /* Отступ сверху для кнопки удаления */
+}
+
+.delete-button:hover {
+    background-color: #810000; /* Более темный красный при наведении */
+}
