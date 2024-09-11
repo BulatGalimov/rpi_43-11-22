@@ -1,50 +1,50 @@
 .form-section {
-    background-color: white; /* Белый фон для формы */
-    padding: 10px; /* Отступы внутри формы */
-    border-radius: 5px; /* Скругление углов */
-    margin-bottom: 20px; /* Отступ снизу для формы */
-    width: 35%; /* Ширина секции */
-    max-width: 500px; /* Максимальная ширина секции */
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+    width: 35%; 
+    max-width: 500px; 
 }
 
 .form-title {
-    margin-bottom: 10px; /* Отступ снизу для заголовка формы */
+    margin-bottom: 10px; 
     font-weight: bold;
 }
 
 .form-input-container {
-    display: flex; /* Используем flexbox для выравнивания элементов */
+    display: flex;
 }
 
 input[type="search"] {
-    flex: 1; /* Поле ввода занимает доступное пространство */
-    padding: 10px; /* Отступы внутри поля ввода */
-    border: 1px solid #ccc; /* Рамка */
-    border-radius: 5px; /* Скругление углов */
-    margin-right: 10px; /* Отступ справа для кнопки */
-    transition: border-color 0.3s; /* Плавный переход цвета рамки */
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    margin-right: 10px;
+    transition: border-color 0.3s; 
 }
 
 input[type="search"]:focus {
-    border-color: #007BFF; /* Изменение цвета рамки при фокусе */
+    border-color: #007BFF; 
 }
 
 .add-button {
-    background-color: #007BFF; /* Голубой фон для кнопки */
-    color: white; /* Белый текст для кнопки */
-    border: none; /* Убираем рамку */
-    padding: 10px 15px; /* Отступы внутри кнопки */
-    border-radius: 5px; /* Скругление углов кнопки */
-    cursor: pointer; /* Курсор в виде указателя при наведении */
-    transition: background-color 0.3s; /* Плавный переход цвета */
-    display: flex; /* Используем flexbox для выравнивания иконки */
-    align-items: center; /* Вертикальное выравнивание иконки */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; 
+    align-items: center; 
 }
 
 .add-button:hover {
-    background-color: #0056b3; /* Более темный голубой при наведении */
+    background-color: #0056b3; 
 }
 
 .add-button i {
-    margin-right: 5px; /* Отступ справа от иконки */
+    margin-right: 5px;
 }
