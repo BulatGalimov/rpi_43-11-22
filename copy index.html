@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Galimov_Bulat</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="form.css"> 
+    <link rel="stylesheet" href="task.css"> 
+    <link rel="stylesheet" href="task-area.css"> 
+    <link rel="stylesheet" href="button.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Список задач</h1>
+    </header>
+    <section class="form-section">
+        <h2 class="form-title">Новая задача</h2>
+        <form action="" method="get">
+            <div class="form-input-container">
+                <input id="task-input" name="s" placeholder="Введите задачу" type="search">
+                <button type="submit" class="add-button"><i class="fas fa-plus"></i>Добавить</button>
+            </div>
+        </form>
+    </section>
+    <section class="task-container">
+        <div class="task-section">
+            <h2 class="task-title backlog">Бэклог</h2>
+            <div class="task-content">
+                <div class="task-item">Выучить JS</div>
+            </div>
+            <div class="task-content">
+                <div class="task-item">Выучить React</div>
+            </div>
+            <div class="task-content">
+                <div class="task-item">Сделать домашку</div>
+            </div>
+        </div>
+        <div class="task-section">
+            <h2 class="task-title in-progress">В процессе</h2>
+            <div class="task-content">
+                <div class="task-item">Выпить смузи</div>
+            </div>
+            <div class="task-content">
+                <div class="task-item">Попить воды</div>
+            </div>
+        </div>
+        <div class="task-section">
+            <h2 class="task-title done">Готово</h2>
+            <div class="task-content">
+                <div class="task-item">Позвонить маме</div>
+            </div>
+            <div class="task-content">
+                <div class="task-item">Погладить кота</div>
+            </div>
+        </div>
+        <div class="task-section">
+            <h2 class="task-title basket">Корзина</h2>
+            <div class="task-content">
+                <div class="task-item">Сходить погулять</div>
+            </div>
+            <div class="task-content">
+                <div class="task-item">Прочитать "Войну и Мир"</div>
+            </div>
+            <button class="delete-button">Х Очистить</button> 
+        </div>
+    </section>
+</body>
+</html>
